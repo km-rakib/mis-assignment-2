@@ -1,0 +1,22 @@
+MIS455 Assignment # 2 - Intro to JS
+INSTRUCTIONS
+
+Step - 1        
+Create separate .js
+& .html files for each problem
+
+Step - 2       
+Put all the .js files in
+one single folder.
+
+Step - 3      
+Upload the folder in
+respective Google Drive.
+
+Step - 4      
+Allow access/ Give permission
+to read the respective google drive folder.
+
+Step - 5      
+Provide LINK of the
+Google Drive folder in the attached google form
