@@ -31,6 +31,5 @@ if (temperature < 0) {
     message = "Its Very Hot";
 }
 
-// Display results using innerHTML
 document.getElementById("tempDisplay").innerHTML = `Temperature: ${temperature}°C`;
 document.getElementById("messageDisplay").innerHTML = `Weather Status: ${message}`;

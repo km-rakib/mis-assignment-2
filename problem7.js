@@ -19,6 +19,5 @@ if (charl.length !== 1 || !charl.match(/[a-z]/i)) {
     }
 }
 
-// Display results using innerHTML
 document.getElementById("charDisplay").innerHTML = `Character entered: ${char}`;
 document.getElementById("resultDisplay").innerHTML = `Result: ${result}`;

@@ -20,7 +20,6 @@
 const name = prompt("Please enter your name:");
 const tuitionFees = parseFloat(prompt("Enter total tuition fees:"));
 const birthYear = parseInt(prompt("Enter your birth year:"));
-
 const currentYear = 2025;
 const age = currentYear - birthYear;
 
@@ -39,7 +38,7 @@ if (tuitionFees > 50000 && age > 21) {
 const discountAmount = (tuitionFees * discountPercentage) / 100;
 const payableFees = tuitionFees - discountAmount;
 
-// Display results using innerHTML
+
 document.getElementById("nameDisplay").innerHTML = `Name : ${name}`;
 document.getElementById("discountDisplay").innerHTML = `Your discount amount: $${discountAmount.toFixed(2)} (${discountPercentage}% discount applied)`;
 document.getElementById("payableDisplay").innerHTML = `Payable tuition fees: $${payableFees.toFixed(2)}`;
